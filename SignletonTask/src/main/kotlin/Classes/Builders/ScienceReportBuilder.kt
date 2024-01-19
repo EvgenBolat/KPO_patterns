@@ -9,7 +9,7 @@ import org.example.Classes.Singleton.LoggerReport
 @Serializable
 class ScienceReportBuilder : ReportBuilder {
     private val result = ScienceReport()
-    private val part = "CourseReportBuilder"
+    private val part = "ScienceReportBuilder"
     override fun reset() {
         result.reportString = ""
         result.header = ""

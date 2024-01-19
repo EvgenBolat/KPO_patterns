@@ -30,9 +30,9 @@ fun main() {
 
     println()
     builder2.setTypeOfResearch("Химический")
-    builder1.setAnnotation("Считали долго")
-    builder1.setReportString("Зачем нам это надо?")
-    builder1.setListOfSources("Текст песни Винтаж")
+    builder2.setAnnotation("Считали долго")
+    builder2.setReportString("Зачем нам это надо?")
+    builder2.setListOfSources("Текст песни Винтаж")
 
     println(builder2.getJSONResult())
 }
